@@ -1,0 +1,14 @@
+title { line-height: 1.4;
+    font-family: system-ui;}
+ 
+    body {
+        line-height: 1.4;
+        font-family: system-ui;
+      }
+    li::marker { font-size: 20px;}
+      
+
+  ol li::marker {
+    content: " 🧡 ";
+  }
+

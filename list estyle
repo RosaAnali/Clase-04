@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>list style</title>
+    </head>
+    <body>
+        
+        <nav>
+        <!--HTML unordered list list-style-type-->
+        <ul style="list-style-type:\1F44D">
+            <li>list-style-type: space-counter;</li>
+            <li>list-style-type: disc;</li>
+            <li>list-style-type: circle;</li>
+            <li>list-style-type: "\1F44D";</li>
+        </ul>
+        </nav>
+
+
+    </body>
+</html>
+
+
