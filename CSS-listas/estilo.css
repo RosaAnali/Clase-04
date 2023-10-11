@@ -10,5 +10,24 @@ title { line-height: 1.4;
 
   ol li::marker {
     content: " 🧡 ";
+}
+
+  
+    ol li{
+    background-color: #F6E3CA; 
+    border: 1px solid black; 
+    list-style: none; 
+    text-align:center;
+        margin: 10px;
+        width: 5em
+
+    }
+
+nav ul li{
+    background-color: cadetblue;;
+    text-align:center ;
+    border: 1px solid black;
+    width: 20em;
   }
 
+  
