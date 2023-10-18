@@ -1,0 +1,110 @@
+def jugos(total):
+    while True:
+        print("""|=============================|
+|           JUGOS             |
+|=============================|
+| A |FRESAS CON LECHE |S/4.50 |
+| B |SURTIDO          |S/3.00 |
+| C |PAPAYA           |S/3.00 |
+| D |========= SALIR =========|
+|=============================|""")
+        opa=input("|OPCION:..:").upper()
+        if opa=="A":
+            total+=4.5
+        elif opa=="B":
+            total+=3
+        elif opa=="C":
+            total+=3
+        elif opa=="D":
+            break
+        else:
+            print("OPCION INCORRECTA")
+    return total
+def postres(total):
+    while True:
+        print("""
+|          POSTRES            |a
+|=============================|
+| A |PYE DE MANZANA   |S/4.50 |
+| B |MOUSEE DE LIMON  |S/4.00 |
+| C |QUEQUE DE QUESO  |S/5.00 |
+| D |========= SALIR =========|
+|=============================|""")
+        opb=input("|OPCION:..:").upper()
+        if opb=="A":
+            total+=4.5
+        elif opb=="B":
+            total+=4
+        elif opb=="C":
+            total+=5
+        elif opb=="D":
+            break
+        else:
+            print("OPCION INCORRECTA")
+    return total
+def hamburg(total):
+    while True:
+        print("""|=============================|
+|        HAMBURGUESAS         |
+|=============================|
+| A |SUPER BURGUER    |S/9.50 |
+| B |POLLO            |S/7.50 |
+| C |CHORIZO          |S/6.00 |
+| D |TOSINO           |S/6.00 |
+| E |CRIOLLA          |S/5.50 |
+| F |SIMPLE           |S/4.00 |
+| G |========= SALIR =========|
+|=============================|""")
+        opc=input("|OPCION:..:").upper()
+        if opc=="A":
+            total+=9.5
+        elif opc=="B":
+            total+=7.5
+        elif opc=="C":
+            total+=6
+        elif opc=="D":
+            total+=6
+        elif opc=="E":
+            total+=5.5
+        elif opc=="E":
+            total+=4
+        elif opc=="G":
+            break
+        else:
+            print("OPCION INCORRECTA")
+    return total
+
+#####################################################################
+#####################################################################
+
+total=0
+jugoss=0
+hamburgs=0
+postress=0
+while True:
+ print("""BIENVENIDO AL RESTAURANTE CERTUS
+|=============================|
+| MENU |
+|=============================|
+| A |JUGOS                    |
+| B |HAMBURGUESAS             |
+| C |POSTRES                  |
+| D |========= SALIR =========|
+|=============================|""")
+ opm=input("|OPCION:..:").upper()
+ if opm=="A":
+     jugoss=jugos(total)
+ elif opm=="B":
+     hamburgs=hamburg(total)
+ elif opm=="C":
+     postress=postres(total)
+ elif opm=="D":
+     break
+ else:
+     print("OPCION INCORRECTA")
+     
+print("|=============================|")
+print(jugoss);print(hamburgs);print(postress)
+neto=jugoss+hamburgs+postress
+print("|===TOTAL A PAGAR: S/","{0:.2f}".format(neto),"===|")
+print("|==GRACIAS POR SU PREFERENCIA=|")
