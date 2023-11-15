@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html lang="en">
+    <head>
+        <title>evaluacion 2 </title>
+    </head>
+    <body>
+        
+        <nav>
+            <ul>
+                <li>
+                    <a href="Index.html">
+                        pagina 1
+                    </a>
+                </li>
+                <li>
+                    <a href="Index.html">
+                        pagina 2
+                    </a>
+                </li>
+                <li>
+                    <a href="Index.html">
+                        blog
+                    </a>
+                </li>
+                <li>
+                    <a href="Index.html">
+                        contacto
+                    </a>
+                </li>
+                
+            </ul>
+         </nav>
+
+         <div class="clearfix"></div>
+        
+         <section id="content">
+
+            <article class="article">
+                <h2>titulo del articulo</h2>
+                <p>parrafo del articulo</p>
+            </article>
+
+
+         </section>
+
+         <aside>
+            <h2>barra lateral</h2>
+            <form>
+                <input type="text">
+                <input type="submit" value="Buscar">
+            </form>
+
+         </aside>
+
+         <footer>
+            rosa yupanqui web
+         </footer>
+
+
+     </div>
+     <div class="clearfix"></div>
+    </body>
+</html>

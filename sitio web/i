@@ -1,0 +1,73 @@
+ <!DOCTYPE html> 
+ <html> 
+ <head> 
+ <script src="<a href=" https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js %22></script> " rel="nofollow"><u> https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script></u></ a>
+  <script> 
+ $(document).ready(function(){ 
+ $("botón").click(función(){ 
+ $("p").removeAttr("id class" ); 
+ }); 
+ }); 
+ </script> 
+ <estilo> 
+ #p1 { 
+ color: blanco; 
+ color de fondo: verde; 
+ tamaño de fuente: 20px; 
+ relleno: 5px; 
+ } 
+   
+ .azul { 
+ color: blanco; 
+ color de fondo: azul; 
+ tamaño de fuente: 20px; 
+ relleno: 5px; 
+ } 
+ </style> 
+ </head> 
+ <body> 
+   
+ <h1>Este es un encabezado</h1> 
+   
+ <p id="p1">Este es un párrafo.</p> 
+ <p class="blue">Este es otro párrafo.</p> 
+   
+ <button>Eliminar id y atributo de clase de todos los elementos p</button> 
+   
+ </body> 
+ </html>
+
+
+
+
+ <html lang="es">
+  <head>
+ <meta charset="utf-8">
+ <title>jQuery</title>
+<script src="jquery.js"></script>
+ <script>
+  $(document).ready(function(){
+ $("p").css("border","1px solid black");
+ });  
+ $("#hora");
+ </script>
+ <style>
+ p { width: 200px;
+  padding: 3px;}
+ div { padding: 3px;}
+ </style>
+  </head>
+   <body>
+ <p id="hora">Párrafo 1</p>
+ <p>Párrafo 2</p>
+
+ <div>División 1</div>
+ </body>
+ </html>  
+
+
+
+
+
+
+ 
